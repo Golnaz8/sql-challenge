@@ -1,3 +1,4 @@
+-- Drop all tables if exist
 DROP TABLE IF EXISTS departments;
 DROP TABLE IF EXISTS titles;
 DROP TABLE IF EXISTS employee;
@@ -5,7 +6,7 @@ DROP TABLE IF EXISTS dept_emp;
 DROP TABLE IF EXISTS dept_manager;
 DROP TABLE IF EXISTS salaries;
 
-
+-- Create all tables
 CREATE TABLE departments (
     dept_no VARCHAR(30) PRIMARY KEY,
     dept_name VARCHAR(255) NOT NULL
